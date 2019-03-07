@@ -18,7 +18,7 @@
 #define ScreenW  [[UIScreen mainScreen] bounds].size.width
 
 #define kBaseHeaderHeight  kScreenW * 385.0f / 704.0f
-#define kBaseSegmentHeight 40.0f
+#define kBaseSegmentHeight 60.0f
 
 #define IS_iPhoneX  ([UIScreen instancesRespondToSelector:@selector(currentMode)] ?\
 (\
